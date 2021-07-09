@@ -1,4 +1,5 @@
-
 /.idea/
 /target/
+/midaxo.iml/
+/.gitignore
 
