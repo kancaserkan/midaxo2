@@ -19,10 +19,16 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(css = ".oe_topbar_name")
-    public WebElement topUsername;
+    @FindBy(xpath ="//a[.='Products']")
+    public WebElement ProductTop ;
 
-    @FindBy(xpath = "//li[@class='o_user_menu']//img[1]")
+
+    @FindBy(xpath ="//ul[@class='menu menu-bar']/li[1]//li[@class='col-3']/p[@class='mega-menu-header']")
+    public WebElement OverviewHeader ;
+
+
+}
+  /*  @FindBy(xpath = "//li[@class='o_user_menu']//img[1]")
     public WebElement AvataronTheMenu;
 
     @FindBy(css = "span.title-level-1")
