@@ -1,7 +1,8 @@
 package com.special.pages;
 
-import com.fidexio.utilities.BrowserUtils;
-import com.fidexio.utilities.Driver;
+
+import com.special.utilities.BrowserUtils;
+import com.special.utilities.Driver;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

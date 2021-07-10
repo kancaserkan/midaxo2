@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-reports", "rerun:target/rerun.txt"},
         features = "src/test/resources/features/",
-        glue = "com/fidexio/step_definitions",
-        dryRun =false,
+        glue = "com/special/step_definitions",
+        dryRun =true,
         tags = "@FID-198"
 
 )
