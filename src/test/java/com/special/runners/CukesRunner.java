@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = "com/special/step_definitions",
         dryRun =false,
 
-        tags = "@ProductTopMenu"
+        tags = "@Platform"
 
 )
 public class CukesRunner {
