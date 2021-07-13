@@ -30,6 +30,8 @@ public abstract class BasePage {
     public WebElement PlatformOverview;
     @FindBy(xpath = "//button[@class='btn-cta']")
     public WebElement Watchvideo;
+    @FindBy(xpath = "//ul[@class='menu menu-bar']//a[.='Demo']")
+    public WebElement DemoButton;
 
 
 }
