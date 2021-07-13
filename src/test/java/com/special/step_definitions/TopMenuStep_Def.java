@@ -8,8 +8,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class TopMenuStep_Def {
+
+
     DashboardPage dashboardPage=new DashboardPage();
 
     @Given("Midaxo Dashboard should be ready")
@@ -32,7 +36,8 @@ public class TopMenuStep_Def {
         String str=dashboardPage.OverviewHeader.getText();
 
         Assert.assertEquals(str,"Overview");
-        System.out.println("Evet bu bir doğru");
+        System.out.println("Evet bu bir doğru "+str);
+        Driver.closeDriver();
 
     }
 

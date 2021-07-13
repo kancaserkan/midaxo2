@@ -26,6 +26,13 @@ public abstract class BasePage {
     @FindBy(xpath ="//ul[@class='menu menu-bar']/li[1]//li[@class='col-3']/p[@class='mega-menu-header']")
     public WebElement OverviewHeader ;
 
+    @FindBy(xpath = "//ul[@class='menu menu-bar']//a[.='Platform Overview']")
+    public WebElement PlatformOverview;
+    @FindBy(xpath = "//button[@class='btn-cta']")
+    public WebElement Watchvideo;
+    @FindBy(xpath = "//ul[@class='menu menu-bar']//a[.='Demo']")
+    public WebElement DemoButton;
+
 
 }
   /*  @FindBy(xpath = "//li[@class='o_user_menu']//img[1]")
